@@ -7,4 +7,4 @@ console.log(evenNum);
 
 
 console.log(5 == "5")  //equal (only checks the value)
-console.log(5 === "5");  //strictly equal(checks the integer value too)
+console.log(5 === "5");  //strictly equal(checks the integer value too,checks the datatype and value)
