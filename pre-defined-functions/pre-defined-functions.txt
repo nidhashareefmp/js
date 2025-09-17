@@ -1,0 +1,7 @@
+pre-defined-function (buit-in functions or native fn or native methods)
+
+pre-defined-fn are fn's that are already provided by js.(ready to use)
+1.save time - no need to call from scratch
+2.increase code readability
+3.optimize - short and sharp
+4.string fn , math fn , date fn
