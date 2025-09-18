@@ -16,3 +16,27 @@ const sayHello = async () =>{
 
 // await poses the fn execution until a promise is resolved.(or reject)
 // it makes asynchronus code look and behave like synchronus code 
+
+
+
+
+
+function fetchData(){
+    return new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve("Data loaded!")
+        },2000)
+    })
+}
+
+async function getData() {
+    console.log("start");
+    const result = await fetchData();
+    console.log(result);
+        
+    console.log("end");
+    
+    }
+    getData()
+    
+    
