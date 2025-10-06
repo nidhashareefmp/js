@@ -1,0 +1,9 @@
+events is an action or occurence that happens to the browser
+
+event handling
+event handling means writting a js code that will run a specific event occurs.
+
+ways to handle
+1.inline
+2.using dom properties
+3.
