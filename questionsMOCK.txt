@@ -1,0 +1,60 @@
+MOCK
+
+what is the difference between synchronous and asynchronus operation
+"synchronous - line by line execution
+               next task waits until the 1st one finish
+"asynchronous - run without waiting
+                doesn't block other code
+
+
+what is dom
+The Document Object Model (DOM) is a programming interface that represents the structure of HTML 
+and XML documents. It allows JavaScript to access and manipulate the content and structure of a 
+webpage.
+
+
+
+what are the datatypes in js
+- Primitive: String, Number, Boolean, Undefined, Null, Symbol, BigInt
+- Non-Primitive: Object, Array, Function
+
+
+what is the event in js
+An event is an action or occurrence that happens in the browser, such as a button click or page load. 
+JavaScript can respond to these events by executing code in response.
+
+
+what are closure in js
+Closures are functions that have access to variables from an outer function, even after the outer 
+function has finished executing. They encapsulate data and provide a 
+way to maintain state between function calls.
+
+
+what is the difference between map and forEach
+forEach - Executes a provided function once for each array element.(wont return)
+map - Executes a provided function once for each array element and returns a new array with the results. 
+
+
+what is a callBack function in js
+this fn takes another function(callBack fn) as a parameter
+
+
+
+what is inheritance in js
+what is the purpose of try catch statement 
+what is the purpose of add eventListener method 
+what is the difference between queryselector query selectorAll
+wht is the difference btw null and undefined
+what is the difference btw == and ===
+what is hoisting
+what is 'this' keyword in js
+
+
+
+what are different way to define a fn in js  
+what is the purpose of Let Var Const
+difference between primitive and nonprimitive datatypes
+whats the use of spread operator
+what is ternary operator in js
+what is rest parameter
+
