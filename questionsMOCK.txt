@@ -41,20 +41,107 @@ this fn takes another function(callBack fn) as a parameter
 
 
 what is inheritance in js
+Inheritance in JavaScript is a mechanism that allows one class (or object) to access and use the properties and methods of another class (or object). It helps in reusing code, avoiding duplication, and creating hierarchical relationships between classes.
+
+
+
 what is the purpose of try catch statement 
+The try...catch statement is used to handle errors in JavaScript gracefully, without stopping the execution of the entire program.
+It allows you to test a block of code for errors (in try) and handle those errors (in catch) if they occur.
+
+
+
 what is the purpose of add eventListener method 
+The purpose of addEventListener() in JavaScript is to attach an event handler to an HTML element so that a specific function runs when a particular event occurs (like a click, keypress, mouseover, etc.).
+one event can be given multiple
+
+
+
 what is the difference between queryselector query selectorAll
+The purpose of querySelector() and querySelectorAll() in JavaScript is to select elements from the DOM (Document Object Model) using CSS selectors.
+
+ querySelector()
+It is used to select the first element in the document that matches a specified CSS selector.  
+
+querySelectorAll()
+it is used to select all elements that match a specified CSS selector.
+It returns a NodeList, which you can loop through.
+
+
+
 wht is the difference btw null and undefined
+null
+is an assigned value. It represents “no value” or “nothing.”
+
+undefined
+A variable that has been declared but not assigned any value is automatically given the value undefined by JavaScript.
+
+
+
 what is the difference btw == and ===
+==
+Compares values only, not data types.
+If the types are different, JavaScript will convert (coerce) them before comparing.
+
+===
+Compares both value and data type.
+No type conversion happens.
+
 what is hoisting
+hoisting - calling a function before defining it
+keyfeatures of fn declaration
+
+
+
 what is 'this' keyword in js
+The this keyword refers to the object that is currently executing the code — it represents the context in which a function is called.
 
 
 
 what are different way to define a fn in js  
+function declaration - is one of the ways to define function
+
+fn expression - is a way to define a fn inside an expression and assign it to a variable
+
+annonymous fn - function is definied without a name
+
+function passing another fn as an argument
+
+callBack - A callback function is a function passed as an argument to another function, and it is executed later
+
+iife - Immediately Invooked Function Expression
+An IIFE is a function that is defined and executed immediately after its creation.
+
+
 what is the purpose of Let Var Const
+var - Redeclaration: Allowed
+      Reassignment: Allowed
+let - Redeclaration: ❌ Not allowed in same scope
+      Reassignment: ✅ Allowed
+Const - Redeclaration: ❌ Not allowed
+       Reassignment: ❌ Not allowed
+     
+
 difference between primitive and nonprimitive datatypes
+primitive - Primitive data types are basic types that store single values and are immutable (cannot be changed).
+           [String, Number, Boolean, Null, Undefined, Symbol, BigInt]
+
+nonprimitive -    Non-primitive types are objects that store collections of values or more complex structures.
+             [Object, Array, Function, Date, etc. ]   
+
+       
+
 whats the use of spread operator
+The spread operator allows you to expand elements of an iterable (like an array or object) into individual elements.
+It’s represented by three dots ....
+
+
 what is ternary operator in js
+The ternary operator is a short-hand way of writing an if-else statement.
+It’s called “ternary” because it takes three operands: a condition, a result if true, and a result if false.
+
+
 what is rest parameter
+The rest parameter allows a function to accept an indefinite number of arguments as an array.
+It is written with three dots ... before the parameter name.
 
