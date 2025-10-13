@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Leave Example</title>
+</head>
+<body>
+    <div id="area" style="width: 150px; height: 150px; background-color: blueviolet;"></div>
+    <p id="message"></p>
+
+    <script>
+        const area = document.getElementById("area");
+        const message = document.getElementById("message");
+
+        // When the mouse leaves the area
+        area.addEventListener("mouseleave", function() {
+            message.textContent = "Mouse left the area!";
+            area.style.backgroundColor = "red"; // Change color to show effect
+        });
+    </script>
+</body>
+</html>

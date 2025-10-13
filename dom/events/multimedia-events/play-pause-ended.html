@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>audio event: play pause ended</h2>
+
+    <audio id="audioplayer" controls>
+        <source src="Sherine.mp3" type="audio/mp3">
+    </audio>
+<p id="eventoutput"></p>
+    <script>
+        const audio = document.getElementById("audioplayer");
+        const output = document.getElementById("eventoutput");
+
+
+        audio.addEventListener('play', () => {
+            output.textContent = "play event fired!!";
+            console.log("play event fired!!");
+            
+        })
+    </script>
+</body>
+</html>

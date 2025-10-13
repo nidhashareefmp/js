@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+</head>
+<body>
+    <div id="area" style="width: 150px; height: 150px; background-color: blueviolet;"></div>
+    <p id="status"></p>
+
+    <script>
+        const area = document.getElementById("area");
+        const status = document.getElementById("status");
+
+        // Mouse enters the area
+        area.addEventListener("mouseenter", function() {
+            status.textContent = "Mouse entered the area!";
+            area.style.backgroundColor = "green";
+        });
+
+        
+    </script>
+</body>
+</html>

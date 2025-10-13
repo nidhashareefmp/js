@@ -51,10 +51,9 @@ It allows you to test a block of code for errors (in try) and handle those error
 
 
 
-what is the purpose of add eventListener method 
+what is the purpose of addeventListener method 
 The purpose of addEventListener() in JavaScript is to attach an event handler to an HTML element so that a specific function runs when a particular event occurs (like a click, keypress, mouseover, etc.).
-one event can be given multiple
-
+To add multiple events to the same element without overwriting previous ones.
 
 
 what is the difference between queryselector query selectorAll
@@ -108,6 +107,8 @@ annonymous fn - function is definied without a name
 function passing another fn as an argument
 
 callBack - A callback function is a function passed as an argument to another function, and it is executed later
+           function passing another fn as an argument
+
 
 iife - Immediately Invooked Function Expression
 An IIFE is a function that is defined and executed immediately after its creation.
