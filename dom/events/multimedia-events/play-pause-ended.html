@@ -21,7 +21,18 @@
             output.textContent = "play event fired!!";
             console.log("play event fired!!");
             
-        })
+        });
+
+audio.addEventListener("pause", () => {
+     output.textContent = "audio is paused.";
+      console.log("Pause event triggered");
+    });
+
+    audio.addEventListener("ended", () => {
+     output.textContent = "ended event fired.";
+      console.log("ended event fired");
+    });
+
     </script>
 </body>
 </html>
